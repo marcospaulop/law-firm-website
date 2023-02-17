@@ -12,6 +12,10 @@ $white-color: #ffff;
   border: 0;
 }
 
+html {
+  font-size: min(1vw, 16px);
+}
+
 h1,
 h2,
 h3,

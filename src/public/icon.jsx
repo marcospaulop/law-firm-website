@@ -1,8 +1,8 @@
 export function Icon() {
   return (
     <svg
-      width="61"
-      height="79"
+      width="3.813rem"
+      height="4.938rem"
       viewBox="0 0 61 79"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -1,8 +1,8 @@
 export function Cart() {
   return (
     <svg
-      width="33"
-      height="34"
+      width="2.063rem"
+      height="2.125rem"
       viewBox="0 0 33 34"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -1,8 +1,8 @@
 export function Mail() {
   return (
     <svg
-      width="63"
-      height="62"
+      width="3.938rem"
+      height="3.875rem"
       viewBox="0 0 63 62"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

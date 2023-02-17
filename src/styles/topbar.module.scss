@@ -23,7 +23,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 32px 0px 32px 0px;
+  padding: 2rem 0rem 2rem 0rem;
 
   width: 100%;
 
@@ -35,7 +35,7 @@
   flex-direction: row;
   align-items: center;
 
-  gap: 47px;
+  gap: 4.625rem;
 }
 
 .cart {
@@ -44,15 +44,15 @@
   align-items: center;
   gap: 0.25rem;
 
-  width: 120px;
-  height: 35px;
+  width: 7.5rem;
+  height: 2.188rem;
 
   cursor: pointer;
 
   font-family: 'Outfit';
   font-size: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 1.375rem;
 
   color: global.$white-color;
   svg {
@@ -67,7 +67,7 @@
   font-family: 'Outfit';
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 1.375rem;
 
   color: global.$white-color;
   a {
@@ -75,14 +75,14 @@
     color: global.$white-color;
   }
 
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .rowContainer {
   display: flex;
   flex-direction: row;
 
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .contact {
@@ -90,7 +90,7 @@
   flex-direction: row;
   justify-content: center;
 
-  gap: 10px;
+  gap: 0.625rem;
 
   div {
     display: flex;
@@ -100,7 +100,7 @@
     font-family: 'Outfit';
     font-size: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.375rem;
 
     :first-child {
       color: global.$golden-color;
