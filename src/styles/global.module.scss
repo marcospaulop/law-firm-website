@@ -1,0 +1,65 @@
+$golden-color: #d1b06b;
+$darkest-grey-color: #555f6d;
+$dark-grey-color: #2e3947;
+$black-color: #161d27;
+$black-transparent-color: rgba(255, 255, 255, 0.1);
+$grey-color: #d7d7d7;
+$white-color: #ffff;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+
+  color: $white-color;
+}
+h1 {
+  font-size: 4.063rem;
+}
+
+h2 {
+  font-size: 4.063rem;
+}
+
+h3 {
+  font-size: 2.813rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2.188rem;
+}
+
+h6 {
+  font-size: 1.875rem;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  background: $black-color;
+  justify-content: center;
+}
+
+.content {
+  padding: 200px 0 200px 0;
+  width: 70vw;
+}
+
+.backgroundContent {
+  width: 100vw;
+}

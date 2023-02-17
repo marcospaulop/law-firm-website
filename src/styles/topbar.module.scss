@@ -1,0 +1,112 @@
+@use './global.module.scss' as global;
+@use './buttons.module.scss' as btn;
+
+.topbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 70vw;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 32px 0px 32px 0px;
+
+  width: 100%;
+
+  border-bottom: 1px solid global.$black-transparent-color;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 47px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+
+  width: 120px;
+  height: 35px;
+
+  cursor: pointer;
+
+  font-family: 'Outfit';
+  font-size: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  color: global.$white-color;
+  svg {
+    transform: translateY(-0.125rem);
+  }
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  color: global.$white-color;
+  a {
+    text-decoration: none;
+    color: global.$white-color;
+  }
+
+  gap: 40px;
+}
+
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+
+  gap: 40px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  gap: 10px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: 'Outfit';
+    font-size: normal;
+    font-weight: 400;
+    font-size: 22px;
+
+    :first-child {
+      color: global.$golden-color;
+    }
+    :last-child {
+      color: global.$white-color;
+    }
+  }
+}

@@ -1,9 +1,9 @@
-import { HelloWorld } from './components/HelloWorld'
+import { Topbar } from './components/Topbar'
 
 export function App() {
   return (
     <>
-      <HelloWorld />
+      <Topbar />
     </>
   )
 }
