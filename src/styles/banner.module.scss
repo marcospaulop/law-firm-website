@@ -1,0 +1,15 @@
+.bannerBackground {
+  top: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.2rem;
+  :last-child {
+    margin-top: 1rem;
+  }
+
+  max-width: 36.875rem;
+}

@@ -1,4 +1,4 @@
-$golden-color: #d1b06b;
+$golden-color: #d1b16b;
 $darkest-grey-color: #555f6d;
 $dark-grey-color: #2e3947;
 $black-color: #161d27;
@@ -12,8 +12,21 @@ $white-color: #ffff;
   border: 0;
 }
 
+.textGolden {
+  color: $golden-color;
+}
+
+.textBlack {
+  color: $black-color;
+}
+
+.textWhite {
+  color: $white-color;
+}
+
 html {
   font-size: min(1vw, 16px);
+  overflow-x: hidden;
 }
 
 h1,
@@ -52,6 +65,11 @@ h6 {
   font-size: 1.875rem;
 }
 
+text {
+  font-family: 'Outfit';
+  font-size: 1.375rem;
+}
+
 body {
   display: flex;
   flex-direction: row;
@@ -60,10 +78,18 @@ body {
 }
 
 .content {
-  padding: 200px 0 200px 0;
+  padding: 10rem 0 10rem 0;
   width: 70vw;
 }
 
 .backgroundContent {
+  position: absolute;
   width: 100vw;
+  left: 0;
+  pointer-events: none;
+  z-index: -1;
+
+  img {
+    width: 100vw;
+  }
 }

@@ -1,5 +1,5 @@
-@use './global.module.scss' as global;
-@use './buttons.module.scss' as btn;
+@use './_global.module.scss' as global;
+@use './_buttons.module.scss' as btn;
 
 .topbar {
   display: flex;
@@ -23,7 +23,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 2rem 0rem 2rem 0rem;
+  padding: 1.45rem 0rem 1.45rem 0rem;
 
   width: 100%;
 

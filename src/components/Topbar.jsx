@@ -1,5 +1,4 @@
-import global from '../styles/global.module.scss'
-import btn from '../styles/buttons.module.scss'
+import btn from '../styles/_buttons.module.scss'
 import s from '../styles/topbar.module.scss'
 
 import { Cart } from '../public/cart'
