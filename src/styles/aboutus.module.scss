@@ -1,0 +1,125 @@
+@use './_global.module.scss' as global;
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 70vw;
+  gap: 3.125rem;
+
+  color: global.$white-color;
+
+  .images {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+
+    width: 29.25rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 3rem;
+
+    width: 55.1875rem;
+
+    .heading {
+      display: flex;
+      flex-direction: column;
+
+      gap: 0.5rem;
+    }
+
+    .subcontent {
+      display: flex;
+      flex-direction: column;
+
+      gap: 2rem;
+
+      .author {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        gap: 1rem;
+
+        img {
+          width: 5.375rem;
+          height: 5.375rem;
+        }
+
+        .authorname {
+          font-family: 'Luxurious Script';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 2.6875rem;
+        }
+      }
+
+      .data {
+        display: flex;
+        flex-direction: row;
+
+        font-weight: 500;
+
+        gap: 2.25rem;
+        .cases {
+          display: flex;
+          flex-direction: row;
+
+          padding: 1.9375rem 3rem;
+          gap: 0.625rem;
+
+          width: fit-content;
+          height: fit-content;
+
+          background-color: global.$dark-grey-color;
+        }
+        .experience {
+          display: flex;
+          flex-direction: row;
+
+          padding: 1.9375rem 3rem;
+          gap: 0.625rem;
+          align-items: center;
+
+          color: #000;
+
+          background-color: global.$golden-color;
+
+          .years {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 0.25rem;
+
+            width: 5rem;
+            height: 3.5rem;
+
+            font-size: 1.875rem;
+            font-weight: 700;
+
+            color: #fff;
+
+            background-color: #000;
+
+            ::after {
+              content: '+';
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.background {
+  background: global.$black-color;
+  height: 62.8125rem;
+}
