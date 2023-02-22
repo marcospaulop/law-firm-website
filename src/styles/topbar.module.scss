@@ -3,8 +3,12 @@
 
 .topbar {
   display: flex;
+  position: absolute;
   flex-direction: column;
   align-items: center;
+
+  left: 50%;
+  transform: translateX(-50%);
 
   width: 70vw;
 }
