@@ -1,4 +1,4 @@
-export function DocumentIcon() {
+export function Document() {
   return (
     <svg
       width="3.625rem"

@@ -4,5 +4,9 @@
     "src/styles/*.scss": [
       "@parcel/transformer-sass"
     ]
-  }
+  },
+  "resolvers": [
+    "@parcel/resolver-glob",
+    "..."
+  ]
 }

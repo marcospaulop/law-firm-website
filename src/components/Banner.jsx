@@ -2,7 +2,7 @@ import global from '../styles/_global.module.scss'
 import btn from '../styles/_buttons.module.scss'
 import s from '../styles/banner.module.scss'
 
-import { Sep } from '../public/sep'
+import { Sep } from '../public/Sep'
 
 export function Banner() {
   return (

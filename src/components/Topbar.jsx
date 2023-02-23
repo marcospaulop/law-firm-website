@@ -1,10 +1,10 @@
 import btn from '../styles/_buttons.module.scss'
 import s from '../styles/topbar.module.scss'
 
-import { Cart } from '../public/cart'
-import { Icon } from '../public/icon'
-import { Mail } from '../public/mail'
-import { Tel } from '../public/tel'
+import { Cart } from '../public/Cart.jsx'
+import { Icon } from '../public/Icon.jsx'
+import { Mail } from '../public/Mail.jsx'
+import { Tel } from '../public/Tel.jsx'
 
 export function Topbar() {
   return (

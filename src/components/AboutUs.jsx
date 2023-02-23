@@ -1,11 +1,11 @@
-import { Sep } from '../public/sep'
+import { Sep } from '../public/Sep.jsx'
 import global from '../styles/_global.module.scss'
 import s from '../styles/aboutus.module.scss'
 
 import aboutusphoto1 from '../public/aboutusphotos1.png'
 import aboutusphoto2 from '../public/aboutusphotos2.png'
 import aboutusprofile from '../public/aboutusprofilephoto.png'
-import { DocumentIcon } from '../public/document'
+import { Document } from '../public/Document.jsx'
 
 export function AboutUs() {
   return (
@@ -40,7 +40,7 @@ export function AboutUs() {
 
               <div className={s.data}>
                 <div className={s.cases}>
-                  <DocumentIcon />
+                  <Document />
                   <text>
                     95%
                     <br />

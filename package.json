@@ -2,7 +2,6 @@
   "name": "law-firm-website",
   "version": "1.0.0",
   "description": "React Practicing",
-  "main": "src/index.js",
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel",
@@ -11,11 +10,14 @@
   "author": "Fockus",
   "license": "MIT",
   "devDependencies": {
+    "@parcel/resolver-glob": "^2.8.3",
     "@parcel/transformer-sass": "^2.8.3",
     "parcel": "^2.8.3",
     "process": "^0.11.10",
-    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.58.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
   }
 }
