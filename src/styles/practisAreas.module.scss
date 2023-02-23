@@ -1,0 +1,86 @@
+@use './_global.module.scss' as global;
+
+.PractisAreas {
+  background: global.$black-color;
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 4rem;
+    width: 100%;
+    text {
+      color: #fff;
+      font-weight: 400;
+      font-size: 1.25rem;
+      strong {
+        color: global.$golden-color;
+        font-weight: 600;
+        font-size: 1.25rem;
+      }
+    }
+
+    .Description {
+      display: flex;
+      flex-direction: row;
+
+      align-items: center;
+
+      gap: 2.5rem;
+      .Title {
+        display: flex;
+        flex-direction: column;
+
+        white-space: nowrap;
+      }
+      .SubTitle {
+        width: 46.5625rem;
+      }
+    }
+    .Cards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      justify-content: center;
+
+      gap: 1.75rem;
+
+      .Card {
+        display: flex;
+        flex-direction: column;
+
+        background: global.$dark-grey-color;
+
+        max-width: 20.5rem;
+        height: 15rem;
+        padding: 3.625rem 3.125rem;
+        gap: 1rem;
+
+        .Buttons {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          margin-top: auto;
+          width: 100%;
+
+          .Button {
+            border: none;
+            padding: 0.9375rem 2.375rem;
+
+            color: #fff;
+            background: global.$black-color;
+
+            cursor: pointer;
+
+            transition: 200ms ease;
+            &:hover {
+              color: #000;
+              background: global.$golden-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
