@@ -4,7 +4,7 @@
   align-items: center;
 
   width: 100vw;
-  height: 56.8vw;
+  height: 56.927083333333vw;
 }
 
 .content {
@@ -13,6 +13,8 @@
   justify-content: left;
 
   pointer-events: all;
+
+  transform: translateY(6.3vw);
 
   text {
     max-width: 37.5rem;
