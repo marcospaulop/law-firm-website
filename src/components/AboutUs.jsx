@@ -10,7 +10,7 @@ import { DocumentIcon } from '../public/document'
 export function AboutUs() {
   return (
     <>
-      <div class={`${global.backgroundContent} ${s.background}`}>
+      <section className={s.AboutUs}>
         <div className={`${global.content}, ${s.container}`}>
           <div className={s.images}>
             <img src={aboutusphoto1} alt="" />
@@ -61,7 +61,7 @@ export function AboutUs() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }

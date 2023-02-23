@@ -1,15 +1,11 @@
 @use './_global.module.scss' as global;
 
+.AboutUs {
+  background: global.$black-color;
+}
+
 .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-  max-width: 70vw;
   gap: 3.125rem;
-
-  color: global.$white-color;
 
   .images {
     display: flex;
@@ -27,6 +23,8 @@
     gap: 3rem;
 
     width: 55.1875rem;
+
+    color: global.$white-color;
 
     .heading {
       display: flex;
@@ -121,9 +119,4 @@
       }
     }
   }
-}
-
-.background {
-  background: global.$black-color;
-  height: 62.8125rem;
 }
