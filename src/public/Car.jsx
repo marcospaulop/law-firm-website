@@ -1,8 +1,8 @@
 export function Car() {
   return (
     <svg
-      width="70"
-      height="47"
+      width="4.375rem"
+      height="2.9375rem"
       viewBox="0 0 70 47"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
